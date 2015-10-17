@@ -1,0 +1,21 @@
+{
+  "require": {
+    "videlalvaro/php-amqplib": "2.5.*"
+
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.*"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Models\\": "classes/Models"
+    },
+    "files": [
+      "classes/Models/InterestQueue.php",
+      "classes/Models/ResponseModel.php"
+    ]
+
+  }
+
+}
